@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 /* start basic rules */
+html {
+    -webkit-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    -webkit-scroll-padding-top: 5rem;
+    scroll-padding-top: 5rem;
+}
 * {
     margin: 0;
     padding: 0;
