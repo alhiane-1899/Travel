@@ -554,3 +554,43 @@ nav {
     height: auto;
 }
 /* end brands */
+/* start footer */
+footer {
+    background-color: #333333;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 2rem;
+    padding: 2.5rem 0;
+}
+.foot-title {
+    font-size: 1.30rem;
+    font-weight: 700;
+    color: var(--white-clr);
+    margin-bottom: 1rem;
+}
+.foot-desc {
+    color: var(--white-clr);
+}
+.foot-links li a {
+    display: block;
+    margin-bottom: .75rem;
+    color: var(--white-clr);
+}
+.foot-links li a:hover {
+    text-decoration: underline;
+    color: var(--primary-clr);
+}
+.credit {
+    padding: 2.5rem 0;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+}
+.credit p {
+    text-align: center;
+    color: var(--white-clr);
+}
+.credit p a {
+    color: var(--primary-clr);
+}
+/* end footer */
