@@ -394,3 +394,56 @@ nav {
     margin-bottom: .75rem;
 }
 /* end services */
+/* start gallery */
+.gallery {
+    padding: 0 0 5rem;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+}
+.gallery-cart {
+    padding: 8px;
+    background-color: var(--white-clr);
+    border-radius: .25rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+.gallery-cart .cart-header {
+    position: relative;
+    height: 13rem;
+    overflow: hidden;
+}
+.gallery-cart .cart-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-cart .cart-body {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 1.25rem;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gallery-cart:hover .cart-body {
+    top: 0;
+}
+.gallery-cart .cart-body .cart-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-clr);
+    margin-bottom: .5rem;
+}
+.gallery-cart .cart-body .cart-desc {
+    margin-bottom: .5rem;
+    color: var(--white-clr);
+}
+/* end gallery */
